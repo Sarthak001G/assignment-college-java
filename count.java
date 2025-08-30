@@ -1,0 +1,15 @@
+//4. Count Digits in a Number
+import java.util.Scanner;
+class count{
+    public static void main(String[]args){
+        Scanner sc = new Scanner(System.in);
+        int n =sc.nextInt();
+        int count=0;
+        for(int i=0;i<=n;i++){
+            n=n/10;
+            count++;
+        }
+        System.out.println(count);
+
+    }
+}
